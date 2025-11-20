@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap tables</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ <body> <!-- htmltagwrap alt+w -->
+    <main class="container table-responsive my-4">
+        <table class="table table-striped table-hover table-bordered">
+            <caption>Výsledky školních testů z matematiky a češtiny – třídy 1.A a 1.B</caption>
+            <col role="columnheader">
+            <colgroup role="region">
+                <col>
+                <col>
+            </colgroup>
+            <colgroup role="region">
+                <col>
+                <col>
+            </colgroup>
+            <col>                
+            
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">Jméno</th>
+                    <th scope="col">Matematika</th>
+                    <th scope="col">Čeština</th>
+                    <th scope="col">Matematika</th>
+                    <th scope="col">Čeština</th>
+                    <th scope="col">Průměr</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table-secondary text-center">
+                    <th colspan="6">Třída 1.A</th>
+                  
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Anna Nováková</th>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>88</td>
+                    <td>92</td>
+                    <td>88,8</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Petr Svoboda</th>
+                    <td>78</td>
+                    <td>82</td>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>81,3</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Jana Dvořáková</th>
+                    <td>92</td>
+                    <td>88</td>
+                    <td>90</td>
+                    <td>89</td>
+                    <td>89,8</td>
+                  </tr>
+                  <tr>
+                    <tr class="table-secondary text-center">
+                        <th colspan="6">Třída 1.B</th>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Martin Kopecký</th>
+                    <td>80</td>
+                    <td>85</td>
+                    <td>82</td>
+                    <td>88</td>
+                    <td>83,8</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Lukáš Veselý</th>
+                    <td>75</td>
+                    <td>78</td>
+                    <td>77</td>
+                    <td>80</td>
+                    <td>77,5</td>
+                  </tr>
+                  <tr>
+                    <th scope="row" class="fw-normal">Eva Procházková</th>
+                    <td>88</td>
+                    <td>91</td>
+                    <td>90</td>
+                    <td>93</td>
+                    <td>90,5</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                    <tr class="table-info">
+                        <th scope="row">Průměr třídy</th>
+                        <td>83,2</td>
+                        <td>86</td>
+                        <td>84,8</td>
+                        <td>89,5</td>
+                        <td class="fw-bold">85,9</td>
+                      </tr>
+                </tfoot>
+              </table>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
